@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using EFCore.Dominio;
 using EFCore.Repo;
 using Microsoft.AspNetCore.Mvc;
@@ -18,7 +19,7 @@ namespace EFCore.WebAPI.Controllers
         }
         // GET: api/Heroi
         [HttpGet]
-        public ActionResult Get()
+        public ActionResult GetNew()
         {
             try
             {
